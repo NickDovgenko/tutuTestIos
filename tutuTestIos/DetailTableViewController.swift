@@ -16,10 +16,12 @@ class DetailTableViewController: UITableViewController {
     @IBOutlet weak var districtTitle: UILabel!
     @IBOutlet weak var cityTitle: UILabel!
     
+    //Массив полученных данных из предыдущего ViewController
     var recivedDataCT = [Model]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.stationTitle?.text = "Cтанция: \(recivedDataCT[0].station)"
         self.countryTitle?.text = "Страна: \(recivedDataCT[0].country)"
         self.regionTitle?.text = "Регион: \(recivedDataCT[0].regionTitle)"

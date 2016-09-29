@@ -32,6 +32,7 @@ class ArrivalTableViewController: UITableViewController, UISearchResultsUpdating
         //Спрятать клавиатуру
         self.hideKeyboardWhenTappedAround()
         
+        //Подсчет количества данных массива (проверка)
         print(dataCT.count)
         print()
         

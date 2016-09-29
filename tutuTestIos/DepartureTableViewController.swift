@@ -33,6 +33,7 @@ class DepartureTableViewController: UITableViewController, UISearchResultsUpdati
         //Спрятать клавиатуру
         self.hideKeyboardWhenTappedAround()
         
+        //Подсчет количества данных массива (проверка)
         print(dataCT.count)
         print()
         
@@ -59,6 +60,7 @@ class DepartureTableViewController: UITableViewController, UISearchResultsUpdati
                         let regionT = results["regionTitle"].stringValue
                         let dataCTV = Model(Country:countryT, City:cityT, Station:stationT, DistrictTitle: districtT, RegionTitle: regionT)
                         
+                        //Добавляем значения в наш массив
                         dataCT.append(dataCTV)
                         }
                     }
@@ -113,6 +115,7 @@ class DepartureTableViewController: UITableViewController, UISearchResultsUpdati
         filterContentForSearchText(searchText: searchController.searchBar.text!)
     }
     
+    //Получения индекса выделенной ячейки, перенос части массива в DetailViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             var indexPath = tableView.indexPathForSelectedRow!

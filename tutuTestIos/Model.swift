@@ -8,6 +8,8 @@
 
 import Foundation
 
+//Модель данных
+
 class Model: NSObject {
     let country: String
     let city: String

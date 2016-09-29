@@ -38,6 +38,8 @@ class TimingController: UIViewController {
 
     
 }
+
+// Dismiss keyboard func
 extension UITableViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UITableViewController.dismissKeyboard))

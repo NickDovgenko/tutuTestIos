@@ -14,7 +14,6 @@
 		011F65541D97040200D36CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011F65531D97040200D36CC2 /* Assets.xcassets */; };
 		011F65571D97040200D36CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011F65551D97040200D36CC2 /* LaunchScreen.storyboard */; };
 		011F65621D97040200D36CC2 /* tutuTestIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F65611D97040200D36CC2 /* tutuTestIosTests.swift */; };
-		011F656D1D97040200D36CC2 /* tutuTestIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F656C1D97040200D36CC2 /* tutuTestIosUITests.swift */; };
 		0136079C1D9A532A002FA079 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136079B1D9A532A002FA079 /* InfoViewController.swift */; };
 		013A8ADD1D9A807C007A7993 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A8ADC1D9A807C007A7993 /* CustomTableViewCell.swift */; };
 		01F169EA1D9715750069C097 /* TimingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F169E91D9715750069C097 /* TimingController.swift */; };
@@ -57,8 +56,6 @@
 		011F65611D97040200D36CC2 /* tutuTestIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutuTestIosTests.swift; sourceTree = "<group>"; };
 		011F65631D97040200D36CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011F65681D97040200D36CC2 /* tutuTestIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutuTestIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		011F656C1D97040200D36CC2 /* tutuTestIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutuTestIosUITests.swift; sourceTree = "<group>"; };
-		011F656E1D97040200D36CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0136079B1D9A532A002FA079 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		013A8ADC1D9A807C007A7993 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		01F169E91D9715750069C097 /* TimingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingController.swift; sourceTree = "<group>"; };
@@ -111,7 +108,6 @@
 			children = (
 				011F654B1D97040200D36CC2 /* tutuTestIos */,
 				011F65601D97040200D36CC2 /* tutuTestIosTests */,
-				011F656B1D97040200D36CC2 /* tutuTestIosUITests */,
 				011F654A1D97040200D36CC2 /* Products */,
 				27BDBABC56B3D7CD296FA2E6 /* Pods */,
 				71CADE260B5DFF68D7274C84 /* Frameworks */,
@@ -151,15 +147,6 @@
 				011F65631D97040200D36CC2 /* Info.plist */,
 			);
 			path = tutuTestIosTests;
-			sourceTree = "<group>";
-		};
-		011F656B1D97040200D36CC2 /* tutuTestIosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				011F656C1D97040200D36CC2 /* tutuTestIosUITests.swift */,
-				011F656E1D97040200D36CC2 /* Info.plist */,
-			);
-			path = tutuTestIosUITests;
 			sourceTree = "<group>";
 		};
 		01F169E81D97152D0069C097 /* ViewControllers */ = {
@@ -493,7 +480,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011F656D1D97040200D36CC2 /* tutuTestIosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
