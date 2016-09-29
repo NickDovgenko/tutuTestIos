@@ -13,9 +13,9 @@
 		011F65521D97040200D36CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011F65501D97040200D36CC2 /* Main.storyboard */; };
 		011F65541D97040200D36CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011F65531D97040200D36CC2 /* Assets.xcassets */; };
 		011F65571D97040200D36CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011F65551D97040200D36CC2 /* LaunchScreen.storyboard */; };
-		011F65621D97040200D36CC2 /* tutuTestIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F65611D97040200D36CC2 /* tutuTestIosTests.swift */; };
 		0136079C1D9A532A002FA079 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0136079B1D9A532A002FA079 /* InfoViewController.swift */; };
 		013A8ADD1D9A807C007A7993 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A8ADC1D9A807C007A7993 /* CustomTableViewCell.swift */; };
+		01A1A6FA1D9D5CB40074F584 /* CheckFirstElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1A6F91D9D5CB40074F584 /* CheckFirstElement.swift */; };
 		01F169EA1D9715750069C097 /* TimingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F169E91D9715750069C097 /* TimingController.swift */; };
 		01F169EC1D97204F0069C097 /* DepartureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F169EB1D97204F0069C097 /* DepartureTableViewController.swift */; };
 		01F169EE1D97207A0069C097 /* ArrivalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F169ED1D97207A0069C097 /* ArrivalTableViewController.swift */; };
@@ -53,11 +53,11 @@
 		011F65561D97040200D36CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011F65581D97040200D36CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011F655D1D97040200D36CC2 /* tutuTestIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutuTestIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		011F65611D97040200D36CC2 /* tutuTestIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutuTestIosTests.swift; sourceTree = "<group>"; };
 		011F65631D97040200D36CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011F65681D97040200D36CC2 /* tutuTestIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutuTestIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0136079B1D9A532A002FA079 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		013A8ADC1D9A807C007A7993 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		01A1A6F91D9D5CB40074F584 /* CheckFirstElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckFirstElement.swift; sourceTree = "<group>"; };
 		01F169E91D9715750069C097 /* TimingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingController.swift; sourceTree = "<group>"; };
 		01F169EB1D97204F0069C097 /* DepartureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartureTableViewController.swift; sourceTree = "<group>"; };
 		01F169ED1D97207A0069C097 /* ArrivalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTableViewController.swift; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 		011F65601D97040200D36CC2 /* tutuTestIosTests */ = {
 			isa = PBXGroup;
 			children = (
-				011F65611D97040200D36CC2 /* tutuTestIosTests.swift */,
 				011F65631D97040200D36CC2 /* Info.plist */,
+				01A1A6F91D9D5CB40074F584 /* CheckFirstElement.swift */,
 			);
 			path = tutuTestIosTests;
 			sourceTree = "<group>";
@@ -472,7 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011F65621D97040200D36CC2 /* tutuTestIosTests.swift in Sources */,
+				01A1A6FA1D9D5CB40074F584 /* CheckFirstElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
